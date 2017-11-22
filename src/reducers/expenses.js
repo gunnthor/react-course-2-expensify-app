@@ -7,7 +7,7 @@ export default (state = expensesReducerDefaultState, action) => {
     case 'ADD_EXPENSE':
       return [
       ...state,
-      action.exp
+      action.expense
       ];
 
     case 'REMOVE_EXPENSE' :      
