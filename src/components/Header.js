@@ -8,9 +8,8 @@ export const Header = ({ startLogout }) => (
     <div className="headerStyle">
       <h1>Expensify</h1>
       <div className="linkerne">
-        <NavLink to="/" activeClassName="is-active" exact={true}>Dashboard </NavLink>  
+        <NavLink to="/dashboard" activeClassName="is-active" >Dashboard </NavLink>  
         <NavLink to="/create" activeClassName="is-active" >Create Expense </NavLink>  
-        <NavLink to="/help" activeClassName="is-active">Help Page </NavLink>  
         <button onClick={startLogout}> Logout </button>
       </div>
     </div>
